@@ -1,0 +1,50 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:id="@+id/main"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:padding="16dp"
+    android:gravity="center">
+
+    <!-- Height Feet Input -->
+    <EditText
+        android:id="@+id/heightFeet"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="Height (Feet)"
+        android:inputType="numberDecimal"
+        android:layout_marginBottom="16dp"/>
+
+    <!-- Height Inches Input -->
+    <EditText
+        android:id="@+id/heightInches"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="Height (Inches)"
+        android:inputType="numberDecimal"
+        android:layout_marginBottom="16dp"/>
+
+    <!-- Weight Input-->
+    <EditText
+        android:id="@+id/weightLbs"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="Weight (Pounds)"
+        android:inputType="numberDecimal"
+        android:layout_marginBottom="16dp"/>
+
+
+    <!-- Button to Perform Calculation -->
+    <Button
+        android:id="@+id/computeButton"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Compute"
+        android:layout_marginBottom="16dp"/>
+
+
+
+
+</LinearLayout>
