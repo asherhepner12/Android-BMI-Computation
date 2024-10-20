@@ -1,5 +1,5 @@
 # Android BMI Computation App
-## Android Java Programming Assignment 3 for CS 260 (Assigned 3/18/24)
+## Android Java Programming Assignment 3 for CS 260 (Assigned 10/02/24)
 ### This program is an Android app that computes the user's BMI.
 
 To use this program, download the folder and build the project in Android Studio v2024.1.2 (Koala feature drop) or later.
